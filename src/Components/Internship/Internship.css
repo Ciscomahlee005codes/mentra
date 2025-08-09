@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.internship-section {
+  padding: 3rem 1rem;
+  background-color: #f8f9fa;
+  font-family: "Montserrat", sans-serif;
+}
+
+.internship-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+/* Filter Buttons */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  background: transparent;
+  border: 2px solid #352bb4;
+  color: #352bb4;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: #352bb4;
+  color: white;
+}
+
+/* Internship Cards */
+.internship-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.internship-card:hover {
+  transform: translateY(-5px);
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.role-badge.tech {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.role-badge.non-tech {
+  background-color: #ffc107;
+  color: #222;
+}
+
+.internship-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.internship-card p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+}
+
+.apply-btn {
+  margin-top: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.apply-btn:hover {
+  background-color: #218838;
+}
+
+/* Swiper pagination styling (optional) */
+.swiper-pagination-bullet {
+  background: rgb(56, 6, 105);
+  opacity: 0.6;
+  position: relative;
+  top: 10px;
+}
+.swiper-pagination-bullet-active {
+  background: rgb(56, 6, 105);
+  opacity: 1;
+}

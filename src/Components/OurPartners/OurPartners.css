@@ -1,0 +1,40 @@
+.partner-section {
+  padding: 3rem 4rem;
+  background-color: #f4f6f8;
+  text-align: center;
+}
+
+.partner-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.partner-grid {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  gap: 50px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.partner-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.partner-card:hover {
+  transform: scale(1.05);
+}
+
+.partner-card img {
+  max-width: 100%;
+  max-height: 60px;
+  object-fit: contain;
+}
