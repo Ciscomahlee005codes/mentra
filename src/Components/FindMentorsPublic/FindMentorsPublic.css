@@ -1,0 +1,99 @@
+.find-mentor-public {
+  padding: 3rem 2rem;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.mentor-hero h1 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+.mentor-hero p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.categories {
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.category-btn {
+  background: #ffcc00;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.category-btn:hover {
+  background: #e6b800;
+  transform: scale(1.05);
+}
+
+.preview {
+  margin-top: 3rem;
+}
+
+.preview h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.mentor-list {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.mentor-card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.avatar {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.blur {
+  color: #888;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+.category-btn.active {
+  background: #222;
+  color: #fff;
+}
+
+.mentor-section {
+  margin-top: 2rem;
+}
+
+.get-mentored-btn {
+  background: #0073e6;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1rem;
+  margin-top: 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.get-mentored-btn:hover {
+  background: #005bb5;
+}

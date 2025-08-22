@@ -1,35 +1,47 @@
 // HowItWorks.jsx
 import React from "react";
 import "./HowItWorks.css";
-import { FaBookOpen, FaCalendarCheck, FaChartLine, FaShareAlt, FaBriefcase } from "react-icons/fa";
+import { FaBookOpen, FaCalendarCheck, FaChartLine, FaShareAlt, FaBriefcase, FaUsers } from "react-icons/fa";
 
 const steps = [
   {
     icon: <FaBookOpen />,
-    title: "Learn a New Skill",
-    description: "Access curated learning paths and resources designed by expert mentors to help you build real-world skills.",
+    title: "Learn & Grow",
+    description:
+      "Access structured learning paths, courses, and resources curated by expert mentors to help you master in-demand skills.",
   },
   {
     icon: <FaCalendarCheck />,
-    title: "Book a Session",
-    description: "Connect with your mentor by booking one-on-one sessions that fit your schedule and learning pace.",
+    title: "Book Mentorship Sessions",
+    description:
+      "Easily schedule one-on-one or group mentorship sessions that align with your goals and availability.",
+  },
+  {
+    icon: <FaUsers />,
+    title: "Team Up with Developers",
+    description:
+      "Collaborate with other learners and developers on projects, challenges, and hackathons to grow faster together.",
   },
   {
     icon: <FaChartLine />,
-    title: "Track Your Progress",
-    description: "Use your personal dashboard to monitor your goals, session history, and growth milestones.",
-  },
-  {
-    icon: <FaShareAlt />,
-    title: "Share Your Journey",
-    description: "Document and share your learning experiences, challenges, and wins with a supportive community.",
+    title: "Track Your Growth",
+    description:
+      "Use your personal dashboard to track progress, completed milestones, and upcoming goals in real time.",
   },
   {
     icon: <FaBriefcase />,
-    title: "Gain Real Experience",
-    description: "Apply your skills in real-life scenarios through exclusive internship opportunities offered by partners.",
+    title: "Get Real-World Opportunities",
+    description:
+      "Apply your skills through internships, collaborations, and client projects from our global partner network.",
+  },
+  {
+    icon: <FaShareAlt />,
+    title: "Showcase & Inspire",
+    description:
+      "Share your portfolio, achievements, and project work with the community to inspire and attract opportunities.",
   },
 ];
+
 
 const HowItWorks = () => {
   return (

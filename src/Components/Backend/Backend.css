@@ -1,0 +1,100 @@
+.all-challenges {
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.challenges-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.challenges-header h1 {
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.challenges-header p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 500px;
+  padding: 0.7rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  margin-top: 1rem;
+}
+
+.challenges-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.challenge-card {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+
+.challenge-card:hover {
+  transform: translateY(-5px);
+  border-color: #ccc;
+}
+
+.challenge-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  margin-right: 0.5rem;
+}
+
+.category {
+  background: #f0f4ff;
+  color: #3751ff;
+}
+
+.level {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.join-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  background: rgb(56, 6, 105);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.join-btn:hover {
+  background: rgb(70, 8, 133);
+}
+
+.no-results {
+  text-align: center;
+  color: #888;
+  font-size: 1rem;
+}
+@media (max-width: 430px) {
+  .challenges-header h1 {
+  font-size: 2rem;
+  color: #333;
+}
+}

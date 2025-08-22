@@ -1,0 +1,72 @@
+.communities-page {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: #f9fafc;
+  min-height: 100vh;
+}
+
+.communities-page h1 {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 0.5rem;
+}
+
+.intro {
+  font-size: 1.1rem;
+  color: #444;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.community-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.community-card {
+  background: #fff;
+  padding: 1.8rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.community-card:hover {
+  transform: translateY(-6px);
+}
+
+.community-card h2 {
+  font-size: 1.3rem;
+  color: #004aad;
+  margin-bottom: 0.6rem;
+}
+
+.community-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.8rem;
+}
+
+.members {
+  display: block;
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.join-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #004aad;
+  color: white;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.join-btn:hover {
+  background: #00327a;
+}

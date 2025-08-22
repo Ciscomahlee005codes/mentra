@@ -36,37 +36,38 @@ const Testimonials = ( { isStandalone } ) => {
   }, [currentSlide]);
 
   const testimonials = [
-    {
-      name: "Okwuibe Chinedu",
-      text: "I was tired of paying agents who showed me nothing but stress. ARCE helped me find a verified apartment within 3 days — no hassle, no drama. The inspection part gave me real peace of mind.",
-      stars: 4.5,
-      image: "./src/assets/customer-6.jpg"
-    },
-    {
-      name: "Emmanuella Ginna",
-      text: "At first, I thought it was too good to be true. But after using ARCE, I can proudly say it's the real deal. Transparent process, fair pricing, and the landlord I got was respectful and professional.",
-      stars: 5,
-       image: "./src/assets/customer-2.jpg"
-    },
-    {
-      name: "Sarah Umeh",
-      text: "As a student, I needed a short-term place that wasn’t overpriced or sketchy. ARCE gave me options I could trust, and now I recommend it to everyone in my hostel. The review system is such a smart idea too!",
-      stars: 3.5,
-       image: "./src/assets/customer-4.jpg"
-    },
-    {
-      name: "Obafemi Bolawatife",
-      text: "I’ve had bad experiences with agents and fake listings before, but ARCE came through. Their inspection system is a game-changer. I finally got an apartment that matched the pictures — no catfish!",
-      stars: 4.5,
-       image: "./src/assets/customer-3.jpg"
-    },
-    {
-      name: "Ifemelu Obinze",
-      text: "I love how professional the whole process felt. From the listings to the communication and even payment — ARCE felt like using Airbnb but for long-term rentals. Smooth and trustworthy.",
-      stars: 5,
-       image: "./src/assets/customer-5.jpg"
-    },
-  ];
+  {
+    name: "Okwuibe Chinedu",
+    text: "Before Mentra, I felt stuck coding alone without direction. My mentor helped me structure my learning and guided me through real projects. In just 2 months, my confidence skyrocketed.",
+    stars: 4.5,
+    image: "./src/assets/customer-6.jpg"
+  },
+  {
+    name: "Emmanuella Ginna",
+    text: "I joined Mentra thinking it would be another random learning site, but it’s way more than that. The progress tracking and team challenges pushed me to a level I didn’t think I could reach this fast.",
+    stars: 5,
+    image: "./src/assets/customer-2.jpg"
+  },
+  {
+    name: "Sarah Umeh",
+    text: "As a beginner, I was overwhelmed by where to start. Mentra gave me a roadmap, a mentor to check in with, and a community to share my journey. It made learning feel exciting, not lonely.",
+    stars: 3.5,
+    image: "./src/assets/customer-4.jpg"
+  },
+  {
+    name: "Obafemi Bolawatife",
+    text: "The mentorship sessions are top notch! I’ve been able to join a small dev team through Mentra and we’ve already built two projects together. The experience feels real and job-ready.",
+    stars: 4.5,
+    image: "./src/assets/customer-3.jpg"
+  },
+  {
+    name: "Ifemelu Obinze",
+    text: "The internship opportunity I got through Mentra was a game-changer. It bridged the gap between tutorials and real-life software development. I now have a portfolio that speaks for itself.",
+    stars: 5,
+    image: "./src/assets/customer-5.jpg"
+  },
+];
+
 
   return (
     <section className={`testimonial-section ${isStandalone ? "standalone" : ""}`} id="Testimonials">
