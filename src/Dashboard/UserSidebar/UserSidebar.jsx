@@ -14,7 +14,7 @@ import {
   FaTimes,
   FaBars,
 } from "react-icons/fa";
-import "./UserSideBar.css";
+import "./UserSidebar.css";
 
 const UserSideBar = () => {
   const [isOpen, setIsOpen] = useState(false);
