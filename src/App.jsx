@@ -16,12 +16,12 @@ import FindMentorPage from "./Pages/MentorShips/FindMentorPage";
 import BeMentorPage from "./Pages/MentorShips/BeMentorPage";
 import Internships from "./Pages/Internships/Internships";
 import Communities from "./Pages/Communities/Communities";
+import UserDashboardPage from "./DashboardPages/UserDashboardPage/UserDashboardPage";
 
 function App() {
   const location = useLocation();
-
-  // Define routes where Navbar and Footer should be hidden
-  const hideNavAndFooter = location.pathname === "/login"; // lowercase path
+  const hideRoutes = ["/login", "/sideBar"]
+  const hideNavAndFooter = hideRoutes.includes(location.pathname); // lowercase path
 
   return (
     <div className="app">
@@ -43,6 +43,9 @@ function App() {
         <Route path="/joinCommunities" element={<Communities />} />
         <Route path="/trackProgress" element={<ProgressPage />} />
         <Route path="/login" element={<LogInPage />} /> 
+
+        {/* UserDashboard */}
+        <Route path="/sideBar" element={<UserDashboardPage />} /> 
       </Routes>
 
       {!hideNavAndFooter && <Footer />}
