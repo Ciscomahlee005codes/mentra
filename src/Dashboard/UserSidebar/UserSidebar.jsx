@@ -16,7 +16,7 @@ import {
 } from "react-icons/fa";
 import "./UserSidebar.css";
 
-const UserSideBar = () => {
+const UserSidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -98,4 +98,4 @@ const UserSideBar = () => {
   );
 };
 
-export default UserSideBar;
+export default UserSidebar;
